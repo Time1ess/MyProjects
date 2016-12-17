@@ -3,7 +3,7 @@
 # Author: David
 # Email: youchen.du@gmail.com
 # Created: 2016-12-09 20:11
-# Last modified: 2016-12-15 09:57
+# Last modified: 2016-12-16 19:05
 # Filename: utils.py
 # Description:
 __metaclass__ = type
@@ -25,7 +25,7 @@ MODELS = ['LR', 'RF', 'GBDT', 'KNN']
 
 log = logging.getLogger()
 stdout_handler = logging.StreamHandler(sys.stdout)
-formatter = logging.Formatter(fmt, datefmt)
+formatter = logging.Formatter(fmt, date_fmt)
 stdout_handler.setFormatter(formatter)
 log.addHandler(stdout_handler)
 
@@ -77,40 +77,57 @@ class Progress:
 
 
 @timeit
-def save_to_file(obj, f):
-    info('Saving %s...' % f)
-    _f = open(f, 'wb')
+def save_to_file(obj, f, prefix=None, suffix='.model'):
+    info('Saving %s' % f)
+    _f = open(prefix+f+suffix, 'wb')
     pickle.dump(obj, _f)
 
 
 @timeit
-def load_from_file(f):
-    info('Loading %s...' % f)
-    _f = open(f, 'rb')
+def load_from_file(f, prefix=None, suffix='.model'):
+    info('Loading %s' % f)
+    _f = open(prefix+f+suffix, 'rb')
     return pickle.load(_f)
+
+
+@timeit
+def load_subitems(path='tianchi_mobile_recommend_train_item.csv'):
+    info('loading subset items')
+    items = []
+    with open(path, 'r') as f:
+        labels = f.readline().strip('\n').split(',')
+        for line in f:
+            data = line.strip('\n').split(',')
+            items.append(data[0])
+    return items, labels
+
 
 @timeit
 def gen_submits(precision):
+    info('Generating submits')
     lines = []
     with open('ans.txt', 'r') as f:
         for line in f:
-            data, pre = line.strip('\n').rsplit(',', 1)
+            uid, iid, pre = line.strip('\n').rsplit(',')
             pre = float(pre)
+            data = [uid, iid]
             if pre >= precision:
                 lines.append(data)
 
-    info('Generating submits...')
+    sub_items, _ = load_subitems()
     pro = Progress(len(lines))
+    info('Writing submits to file')
     with open('dutir_tianchi_recom_predict_david.txt', 'w') as f:
-        for line in lines:
+        for uid, iid in lines:
             pro.next()
-            f.write(line+'\n')
+            if iid in sub_items:
+                f.write(uid+','+iid+'\n')
     pro.end()
 
 
 @timeit
 def groupby(data_set, index):
-    info('Grouping data...')
+    info('Grouping data')
     group_dict = defaultdict(list)
     size = len(data_set)
     pro = Progress(size)
@@ -125,7 +142,7 @@ def groupby(data_set, index):
 
 @timeit
 def sorton(group_dict):
-    info('Sorting data...')
+    info('Sorting data')
     size = len(group_dict.keys())
     pro = Progress(size)
     for value in group_dict.values():
@@ -154,3 +171,4 @@ def save_prediction(user_items, predicts, min_probe=0.5):
             if probe >= min_probe:
                 f.write('%s,%s,%.2f\n' % (uid, iid, probe))
         pro.end()
+
