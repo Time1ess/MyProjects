@@ -3,7 +3,7 @@
 # Author: David
 # Email: youchen.du@gmail.com
 # Created: 2017-01-08 09:42
-# Last modified: 2017-01-11 09:04
+# Last modified: 2017-07-26 09:38
 # Filename: CourseHelper.py
 # Description:
 import requests
@@ -324,8 +324,3 @@ class CourseHelper:
 
         self.pool.close()
         self.pool.join()
-
-
-if __name__ == '__main__':
-    ch = CourseHelper('21624010', '180656')
-    ch.start()
