@@ -1,0 +1,673 @@
+fileFormatVersion: 2
+guid: 085e8fc2f8de548a7bfec392ca24792d
+timeCreated: 1510403518
+licenseType: Free
+SketchUpImporter:
+  generateBackFace: 0
+  mergeCoplanarFaces: 0
+  selectedNodes: 00000000010000000200000003000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a0000002b0000002c0000002d0000002e0000002f000000300000003100000032000000330000003400000035000000360000003700000038000000390000003a0000003b0000003c0000003d0000003e0000003f000000400000004100000042000000430000004400000045000000460000004700000048000000490000004a0000004b0000004c0000004d0000004e0000004f000000500000005100000052000000530000005400000055000000560000005700000058000000590000005a0000005b0000005c0000005d0000005e0000005f000000600000006100000062000000630000006400000065000000660000006700000068000000690000006a0000006b0000006c0000006d0000006e0000006f000000700000007100000072000000730000007400000075000000760000007700000078000000790000007a0000007b0000007c0000007d0000007e0000007f000000800000008100000082000000830000008400000085000000860000008700000088000000890000008a0000008b0000008c0000008d0000008e0000008f000000900000009100000092000000930000009400000095000000960000009700000098000000990000009a0000009b0000009c0000009d0000009e0000009f000000a0000000a1000000a2000000a3000000a4000000a5000000a6000000a7000000a8000000a9000000aa000000ab000000ac000000ad000000ae000000af000000b0000000b1000000b2000000b3000000b4000000b5000000b6000000b7000000b8000000b9000000ba000000bb000000bc000000bd000000be000000bf000000c0000000c1000000c2000000c3000000c4000000c5000000c6000000
+  assetHash:
+    serializedVersion: 2
+    Hash: d0e844a931965ce125c6910b8f966935
+  longitude: 116.39111580959367
+  latitude: 39.907280775683645
+  northCorrection: -0
+  fileUnit: 0
+  sketchUpImportData:
+    defaultCamera:
+      position: {x: 87.31866, y: 19.07347, z: -94.65795}
+      lookAt: {x: -87.82198, y: 8.586869, z: 156.33878}
+      up: {x: -0.0195952, y: 0.99941355, z: 0.02808218}
+      fov: 30
+      aspectRatio: 0
+      orthoSize: 1
+      isPerspective: 1
+    scenes: []
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Google Earth Terrain
+    100002: Group 10
+    100004: Group 101
+    100006: Group 103
+    100008: Group 106
+    100010: Group 108
+    100012: Group 110
+    100014: Group 112
+    100016: Group 114
+    100018: Group 116
+    100020: Group 118
+    100022: Group 12
+    100024: Group 120
+    100026: Group 122
+    100028: Group 124
+    100030: Group 126
+    100032: Group 129
+    100034: Group 131
+    100036: Group 133
+    100038: Group 135
+    100040: Group 137
+    100042: Group 139
+    100044: Group 14
+    100046: Group 141
+    100048: Group 143
+    100050: Group 145
+    100052: Group 147
+    100054: Group 149
+    100056: Group 152
+    100058: Group 154
+    100060: Group 156
+    100062: Group 158
+    100064: Group 16
+    100066: Group 160
+    100068: Group 162
+    100070: Group 164
+    100072: Group 166
+    100074: Group 168
+    100076: Group 170
+    100078: Group 172
+    100080: Group 174
+    100082: Group 177
+    100084: Group 179
+    100086: Group 18
+    100088: Group 181
+    100090: Group 183
+    100092: Group 185
+    100094: Group 187
+    100096: Group 189
+    100098: Group 191
+    100100: Group 193
+    100102: Group 195
+    100104: Group 197
+    100106: Group 20
+    100108: Group 22
+    100110: Group 24
+    100112: Group 26
+    100114: Group 28
+    100116: Group 30
+    100118: Group 33
+    100120: Group 35
+    100122: Group 37
+    100124: Group 39
+    100126: Group 41
+    100128: Group 43
+    100130: Group 45
+    100132: Group 47
+    100134: Group 49
+    100136: Group 51
+    100138: Group 53
+    100140: Group 55
+    100142: Group 58
+    100144: Group 6
+    100146: Group 60
+    100148: Group 62
+    100150: Group 64
+    100152: Group 66
+    100154: Group 68
+    100156: Group 70
+    100158: Group 72
+    100160: Group 74
+    100162: Group 76
+    100164: Group 78
+    100166: Group 8
+    100168: Group 81
+    100170: Group 83
+    100172: Group 85
+    100174: Group 87
+    100176: Group 89
+    100178: Group 91
+    100180: Group 93
+    100182: Group 95
+    100184: Group 97
+    100186: Group 99
+    100188: //RootNode
+    100190: "\u7D44\u4EF6#2"
+    100192: "\u7D44\u4EF6#2 1"
+    100194: "\u7D44\u4EF6#2 2"
+    100196: "\u7D44\u4EF6#2 3"
+    100198: "\u7D44\u4EF6#3"
+    100200: "\u7D44\u4EF6#3 1"
+    100202: "\u7D44\u4EF6#3 2"
+    100204: "\u7D44\u4EF6#3 3"
+    400000: Google Earth Terrain
+    400002: Group 10
+    400004: Group 101
+    400006: Group 103
+    400008: Group 106
+    400010: Group 108
+    400012: Group 110
+    400014: Group 112
+    400016: Group 114
+    400018: Group 116
+    400020: Group 118
+    400022: Group 12
+    400024: Group 120
+    400026: Group 122
+    400028: Group 124
+    400030: Group 126
+    400032: Group 129
+    400034: Group 131
+    400036: Group 133
+    400038: Group 135
+    400040: Group 137
+    400042: Group 139
+    400044: Group 14
+    400046: Group 141
+    400048: Group 143
+    400050: Group 145
+    400052: Group 147
+    400054: Group 149
+    400056: Group 152
+    400058: Group 154
+    400060: Group 156
+    400062: Group 158
+    400064: Group 16
+    400066: Group 160
+    400068: Group 162
+    400070: Group 164
+    400072: Group 166
+    400074: Group 168
+    400076: Group 170
+    400078: Group 172
+    400080: Group 174
+    400082: Group 177
+    400084: Group 179
+    400086: Group 18
+    400088: Group 181
+    400090: Group 183
+    400092: Group 185
+    400094: Group 187
+    400096: Group 189
+    400098: Group 191
+    400100: Group 193
+    400102: Group 195
+    400104: Group 197
+    400106: Group 20
+    400108: Group 22
+    400110: Group 24
+    400112: Group 26
+    400114: Group 28
+    400116: Group 30
+    400118: Group 33
+    400120: Group 35
+    400122: Group 37
+    400124: Group 39
+    400126: Group 41
+    400128: Group 43
+    400130: Group 45
+    400132: Group 47
+    400134: Group 49
+    400136: Group 51
+    400138: Group 53
+    400140: Group 55
+    400142: Group 58
+    400144: Group 6
+    400146: Group 60
+    400148: Group 62
+    400150: Group 64
+    400152: Group 66
+    400154: Group 68
+    400156: Group 70
+    400158: Group 72
+    400160: Group 74
+    400162: Group 76
+    400164: Group 78
+    400166: Group 8
+    400168: Group 81
+    400170: Group 83
+    400172: Group 85
+    400174: Group 87
+    400176: Group 89
+    400178: Group 91
+    400180: Group 93
+    400182: Group 95
+    400184: Group 97
+    400186: Group 99
+    400188: //RootNode
+    400190: "\u7D44\u4EF6#2"
+    400192: "\u7D44\u4EF6#2 1"
+    400194: "\u7D44\u4EF6#2 2"
+    400196: "\u7D44\u4EF6#2 3"
+    400198: "\u7D44\u4EF6#3"
+    400200: "\u7D44\u4EF6#3 1"
+    400202: "\u7D44\u4EF6#3 2"
+    400204: "\u7D44\u4EF6#3 3"
+    2300000: Google Earth Terrain
+    2300002: Group 10
+    2300004: Group 101
+    2300006: Group 103
+    2300008: Group 106
+    2300010: Group 108
+    2300012: Group 110
+    2300014: Group 112
+    2300016: Group 114
+    2300018: Group 116
+    2300020: Group 118
+    2300022: Group 12
+    2300024: Group 120
+    2300026: Group 122
+    2300028: Group 124
+    2300030: Group 126
+    2300032: Group 129
+    2300034: Group 131
+    2300036: Group 133
+    2300038: Group 135
+    2300040: Group 137
+    2300042: Group 139
+    2300044: Group 14
+    2300046: Group 141
+    2300048: Group 143
+    2300050: Group 145
+    2300052: Group 147
+    2300054: Group 149
+    2300056: Group 152
+    2300058: Group 154
+    2300060: Group 156
+    2300062: Group 158
+    2300064: Group 16
+    2300066: Group 160
+    2300068: Group 162
+    2300070: Group 164
+    2300072: Group 166
+    2300074: Group 168
+    2300076: Group 170
+    2300078: Group 172
+    2300080: Group 174
+    2300082: Group 177
+    2300084: Group 179
+    2300086: Group 18
+    2300088: Group 181
+    2300090: Group 183
+    2300092: Group 185
+    2300094: Group 187
+    2300096: Group 189
+    2300098: Group 191
+    2300100: Group 193
+    2300102: Group 195
+    2300104: Group 197
+    2300106: Group 20
+    2300108: Group 22
+    2300110: Group 24
+    2300112: Group 26
+    2300114: Group 28
+    2300116: Group 30
+    2300118: Group 33
+    2300120: Group 35
+    2300122: Group 37
+    2300124: Group 39
+    2300126: Group 41
+    2300128: Group 43
+    2300130: Group 45
+    2300132: Group 47
+    2300134: Group 49
+    2300136: Group 51
+    2300138: Group 53
+    2300140: Group 55
+    2300142: Group 58
+    2300144: Group 60
+    2300146: Group 62
+    2300148: Group 64
+    2300150: Group 66
+    2300152: Group 68
+    2300154: Group 70
+    2300156: Group 72
+    2300158: Group 74
+    2300160: Group 76
+    2300162: Group 78
+    2300164: Group 8
+    2300166: Group 81
+    2300168: Group 83
+    2300170: Group 85
+    2300172: Group 87
+    2300174: Group 89
+    2300176: Group 91
+    2300178: Group 93
+    2300180: Group 95
+    2300182: Group 97
+    2300184: Group 99
+    2300186: //RootNode
+    3300000: Google Earth Terrain
+    3300002: Group 10
+    3300004: Group 101
+    3300006: Group 103
+    3300008: Group 106
+    3300010: Group 108
+    3300012: Group 110
+    3300014: Group 112
+    3300016: Group 114
+    3300018: Group 116
+    3300020: Group 118
+    3300022: Group 12
+    3300024: Group 120
+    3300026: Group 122
+    3300028: Group 124
+    3300030: Group 126
+    3300032: Group 129
+    3300034: Group 131
+    3300036: Group 133
+    3300038: Group 135
+    3300040: Group 137
+    3300042: Group 139
+    3300044: Group 14
+    3300046: Group 141
+    3300048: Group 143
+    3300050: Group 145
+    3300052: Group 147
+    3300054: Group 149
+    3300056: Group 152
+    3300058: Group 154
+    3300060: Group 156
+    3300062: Group 158
+    3300064: Group 16
+    3300066: Group 160
+    3300068: Group 162
+    3300070: Group 164
+    3300072: Group 166
+    3300074: Group 168
+    3300076: Group 170
+    3300078: Group 172
+    3300080: Group 174
+    3300082: Group 177
+    3300084: Group 179
+    3300086: Group 18
+    3300088: Group 181
+    3300090: Group 183
+    3300092: Group 185
+    3300094: Group 187
+    3300096: Group 189
+    3300098: Group 191
+    3300100: Group 193
+    3300102: Group 195
+    3300104: Group 197
+    3300106: Group 20
+    3300108: Group 22
+    3300110: Group 24
+    3300112: Group 26
+    3300114: Group 28
+    3300116: Group 30
+    3300118: Group 33
+    3300120: Group 35
+    3300122: Group 37
+    3300124: Group 39
+    3300126: Group 41
+    3300128: Group 43
+    3300130: Group 45
+    3300132: Group 47
+    3300134: Group 49
+    3300136: Group 51
+    3300138: Group 53
+    3300140: Group 55
+    3300142: Group 58
+    3300144: Group 60
+    3300146: Group 62
+    3300148: Group 64
+    3300150: Group 66
+    3300152: Group 68
+    3300154: Group 70
+    3300156: Group 72
+    3300158: Group 74
+    3300160: Group 76
+    3300162: Group 78
+    3300164: Group 8
+    3300166: Group 81
+    3300168: Group 83
+    3300170: Group 85
+    3300172: Group 87
+    3300174: Group 89
+    3300176: Group 91
+    3300178: Group 93
+    3300180: Group 95
+    3300182: Group 97
+    3300184: Group 99
+    3300186: //RootNode
+    4300000: Mesh Tiananmen+Square (2)
+    4300002: Mesh Google Earth Terrain
+    4300004: Mesh Group 8
+    4300006: Mesh Group 10
+    4300008: Mesh Group 12
+    4300010: Mesh Group 14
+    4300012: Mesh Group 16
+    4300014: Mesh Group 18
+    4300016: Mesh Group 20
+    4300018: Mesh Group 22
+    4300020: Mesh Group 24
+    4300022: Mesh Group 26
+    4300024: Mesh Group 28
+    4300026: Mesh Group 30
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 010
+    second: {fileID: 2100000, guid: 382250fe5d2a54b55a89af0b282edea1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 111
+    second: {fileID: 2100000, guid: 620226dc277484c39b4700506604dc72, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3
+    second: {fileID: 2100000, guid: 87b8b28b8a2c047ceaa09554b29670ea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 77
+    second: {fileID: 2100000, guid: b0b2c8186e91c4dda8417f670cc640d9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Color_A17
+    second: {fileID: 2100000, guid: e4612dbdbf52646529b927c8d22ffba5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Color_F06
+    second: {fileID: 2100000, guid: d5b68081ca83248d4abbb8ba2818e33f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Concrete
+    second: {fileID: 2100000, guid: c8fd73804656c4b9dbaf27336ef5f292, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Google Earth Snapshot1
+    second: {fileID: 2100000, guid: 59769f139ea7f4e2f98daefd04e2ec72, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rooftiles
+    second: {fileID: 2100000, guid: ace4d9969f44d49b3ab1b94a5227a09c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _1
+    second: {fileID: 2100000, guid: 0bb1bec56ea30423e8b5cddc50d9d84c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _10
+    second: {fileID: 2100000, guid: 1c7aaba6875d54e4196f76360e5f9934, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _11
+    second: {fileID: 2100000, guid: f18893d9c57344a648d77a67d5bdec21, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _12
+    second: {fileID: 2100000, guid: 300d601f8409f46f995e130b7ae38caa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _13
+    second: {fileID: 2100000, guid: 5c9f23e588d954b07af254abe2658b59, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _2
+    second: {fileID: 2100000, guid: 52ebb19e0958a49d182c9b48fa75e21c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _3
+    second: {fileID: 2100000, guid: ad829ee9e8f6a435fa27f0c3fcd78098, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _4
+    second: {fileID: 2100000, guid: 81e9460ef4c2f470a902a24224a3e34b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _5
+    second: {fileID: 2100000, guid: 670fd31f105fa4e08a734e026a48365c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _6
+    second: {fileID: 2100000, guid: e5f61b9c1c4b941c496bf49e6a3ad273, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _7
+    second: {fileID: 2100000, guid: dd09afff990fa41568390852cce6666d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _8
+    second: {fileID: 2100000, guid: 36fe486da9e7742cba963a5e1a41c794, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _9
+    second: {fileID: 2100000, guid: cb4eebd23fe7d43edbfb12c02307b8e2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _Gold_
+    second: {fileID: 2100000, guid: 6424b0a09544f4142b68b2e9845fc15e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _defaultMat
+    second: {fileID: 2100000, guid: 5985d246100ff4c53bb3990e91d596bb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: a
+    second: {fileID: 2100000, guid: 337214c15213d4db0afe473a36ce02f0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: d2
+    second: {fileID: 2100000, guid: 5f68b2f3b40724da4b83fec967e41c29, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door
+    second: {fileID: 2100000, guid: d30d5f1f397a544899307348c2a29e8c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door2
+    second: {fileID: 2100000, guid: d27816d6994b141528d3be2133874eea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ok1
+    second: {fileID: 2100000, guid: 08801f85818d042cd811e10cc13b76b2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: planta tianamen
+    second: {fileID: 2100000, guid: 5f93578f0b63d42f0bb3359c4fa880eb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: w2
+    second: {fileID: 2100000, guid: 9413abcf51e7942c38201065cbcaa129, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: w7
+    second: {fileID: 2100000, guid: 1cb5ff8873b914bf69bdb6c1556b9970, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.0254
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

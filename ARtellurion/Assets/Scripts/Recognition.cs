@@ -32,6 +32,7 @@ public class Recognition : MonoBehaviour {
 
 	private UnityEngine.UI.Text text;
 	private static Audio audio;
+	private ModelDisplay model_display;
 
 	private string path;
 	private double prob;
@@ -74,6 +75,7 @@ public class Recognition : MonoBehaviour {
 
 		text = GameObject.FindWithTag ("DebugLog").GetComponent<UnityEngine.UI.Text>();
 		audio = GameObject.Find("Audios").GetComponent<Audio> ();
+		model_display = GameObject.Find ("ModelDisplayControl").GetComponent<ModelDisplay> ();
 
 		path = Application.streamingAssetsPath+"/";
 		multi_class_model_path = path+"multi_class.model";
@@ -151,6 +153,8 @@ public class Recognition : MonoBehaviour {
 								text.text = CountryMap.countries [code.ToString ()];
 							if(audio.get_source()!=code.ToString ())
 								audio.set_source (code.ToString ());
+							if (model_display.get_source () != code)
+								model_display.set_source (code);
 							setRecognitionStatus (RECOG_STATUS.PROCESSING);
 							UploadBytes (ref pixels, image.BufferWidth, image.BufferHeight);
 						}
