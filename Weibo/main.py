@@ -34,7 +34,7 @@ else:
     url = make_url(user_id)
     print('GET', url)
     resp = sess.get(url)
-    data = json.loads(resp.text)
+    data = json.loads(resp.text)['data']
 
 for tab in data['tabsInfo']['tabs']:
     if tab['title'] == '微博':
@@ -62,14 +62,17 @@ else:
                        page=cnt)
         cnt += 1
         resp = sess.get(url)
-        data = json.loads(resp.text)
-        if not data['cards']:
+        data = json.loads(resp.text)['data']
+        if not data['cards'] or cnt > 10:
             break
         cards.extend(data['cards'])
 
 strip_tag = re.compile(r'<.*?>')
 weibos = []
+print(cards[0])
 for card in cards:
+    if 'mblog' not in card:
+        continue
     weibo = card['mblog']
     item = {}
     item['id'] = weibo['id']

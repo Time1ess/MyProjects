@@ -10,7 +10,7 @@ from CourseHelper import CourseHelper
 from private_data import username, password
 # proxies={'http':'http://127.0.0.1:8888'}
 proxies = {}
-ch = CourseHelper(username, password, proxies = proxies)
+ch = CourseHelper(username, password, proxies=proxies)
 choice = ''
 while True:
     choice = ch.help_my_course()
