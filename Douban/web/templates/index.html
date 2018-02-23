@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>电影检索系统</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="keywords" content="Movie, Movie Description" />
+        <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+        <link href="/static/css/bootstrap.css" rel='stylesheet' type='text/css' />
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <!-- Custom Theme files -->
+        <link href="/static/css/style.css" rel='stylesheet' type='text/css' />
+        <!-- Custom Theme files -->
+        <script type="text/javascript" src="/static/js/jquery-1.11.1.min.js"></script>
+        <script src="/static/js/menu_jquery.js"></script>
+    </head>
+    <body>
+        <div class="header">	
+            <div class="container"> 
+                <div class="logo">
+                    <h1><a href="/index">电影检索系统</a></h1>
+                </div>
+                <div class="top_right">
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+        <div class="banner">
+            <div class="container">
+                <div class="span_1_of_1 center-block">
+                    <h2>Find your favorite Movies.</h2>
+                    <div class="search">
+                        <ul>
+                            <li>
+                                <form action="/search" method="GET">
+                                    <input type="text" name="query" id="search_text" placeholder="Search"/>
+                                    <input type="submit" id="search_button" value="">
+                                </form>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>		
