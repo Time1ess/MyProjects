@@ -10,6 +10,8 @@ import base64
 import json
 import requests
 
+from pprint import pprint
+
 from Crypto.Cipher import AES
 
 
@@ -107,8 +109,8 @@ class NetEaseMusic:
 def main():
     uid = '504835560'
     nem = NetEaseMusic()
-    print(nem.get_json(uid, 'music'))
-    print(nem.get_json(uid, 'comment'))
+    pprint(nem.get_json(uid, 'music'))
+    #pprint(nem.get_json(uid, 'comment'))
 
 
 if __name__ == '__main__':
