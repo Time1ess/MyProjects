@@ -34,11 +34,8 @@ uint64_t gen_id()
         is_full = 1;
     }
     if(global_ts < ts || is_full)
-    {
-        global_ts = ts;
-        sqn = 0;
-        //sqn = rand() % (2 << 12);
-    }
+        sqn = rand() % (2 << 12);
+    global_ts = ts;
     uid = uid | (ts << 22) | (data_center_id << 17) | (worker_id << 12) | sqn;
     sqn += 1;
     return uid;

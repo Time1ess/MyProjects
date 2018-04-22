@@ -1,4 +1,5 @@
 from time import time
+from random import getrandbits
 
 
 class Snowflake:
@@ -30,12 +31,13 @@ class Snowflake:
         ms = self.get_ts()
         full = False
         if self.sqn == 4096:
+            # Wait until next millisecond
             while ms == self.ms:
                 ms = self.get_ts()
             full = True
-        if self.ms < ms or full:
-            self.ms = ms
-            self.sqn = 0
+        if self.ms <= ms or full:
+            self.sqn = getrandbits(14)
+        self.ms = ms
         uid = uid | (ms << 22)  # Timestamp
         uid = uid | (self.data_center_id << 17)  # Data center ID
         uid = uid | (self.worker_id << 12)  # Worker ID
