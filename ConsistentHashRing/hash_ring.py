@@ -39,10 +39,16 @@ class CHashRing:
     def hash(self, val):
         h = md5()
         h.update(val.encode())
-        return int(h.hexdigest(), base=16) % (2**32 - 1)
+        return int(h.hexdigest(), base=16) % (2**32)
 
 
-ring = CHashRing(['A', 'B', 'C', 'D', 'E'], replicas=150)
+ring = CHashRing([
+    '192.168.1.5',
+    '192.168.1.53',
+    '192.168.1.127',
+    '192.168.1.66',
+    '192.168.1.39',
+    ], replicas=150)
 cnts = {}
 for _ in range(100000):
     val = ''.join(choices(ascii_letters, k=randint(10, 100)))

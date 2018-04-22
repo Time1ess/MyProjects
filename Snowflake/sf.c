@@ -6,7 +6,7 @@
 #include <stdlib.h>
 
 #define _POSIX_C_SOURCE 200809L
-#define N 10000000
+#define N 1000000
 
 int data_center_id;
 int worker_id;
@@ -83,6 +83,6 @@ int main(void)
     for(int i = 0; i < N; i++)
         gen_id();
     uint64_t e = get_ts();
-    printf("IDs per second: %lld, ID/ms: %.5f\n", 1000l * N / (e - s), 1.0 * (e-s) / N);
+    printf("IDs per ms: %lld, ms per ID: %.5f\n", N / (e - s), 1.0 * (e-s) / N);
     return 0;
 }
