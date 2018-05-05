@@ -1,0 +1,36 @@
+{% extends 'layout.html' %}
+{% block PAGE_TITLE %} Document: {{ doc_uid }} {% endblock %}
+
+{% block BODY %}
+<div class="modal fade" id="doc_preview" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="preview_title">预览: {{ doc_uid }}</h4>
+      </div>
+      <div class="modal-body" id="preview_text">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row" style="height: 100%; width:98%; margin:0 auto">
+	<h2>编辑区</h2>
+	<div class="col-sm-12">
+	<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#doc_preview" onclick="preview()">预览</a>
+	</div>
+		<textarea id="raw_text" doc_uid="{{ doc_uid }}" class="form-control" style="resize:none;height: 100%" onkeydown="clear_sync()" onkeyup="prepare_sync()">{{ doc_text }}</textarea>
+	</div>
+</div>
+{% endblock %}
+{% block FOOTER_JS %}
+{{ super() }}
+<script src="{{ url_for('static', filename='js/doc.js') }}"></script>
+{% endblock %}
+<!--
+
+-->

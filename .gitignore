@@ -1,4 +1,3 @@
-*
 !*.*
 !/*/
 # Byte-compiled / optimized / DLL files
@@ -101,3 +100,4 @@ ARtellurion/QCAR/
 torchtools/
 .DS_store
 *private*
+Dash-User-Contributions/
