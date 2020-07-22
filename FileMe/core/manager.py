@@ -236,7 +236,7 @@ class TransferManager:
             return self._rej_m(
                 mtype='PUT',
                 code=str(code),
-                reason='Unknown Reason in master put session')
+                reason='Unknown Reason in main put session')
 
     def _spt_m(self, host, port, filename):  # SPT message
         """
@@ -305,7 +305,7 @@ class TransferManager:
         """
         Author: David
         Desc:
-                Respond to GET message, FileMasterSession will be created
+                Respond to GET message, FileMainSession will be created
                 if everything is fine, or request will be rejected.
         """
         host = args[args.index('-h')+1]
@@ -340,7 +340,7 @@ class TransferManager:
             return self._rej_m(
                 mtype='GET',
                 code=str(code),
-                reason='Unknown Reason in master get session')
+                reason='Unknown Reason in main get session')
 
     def _sgt_m(self, host, port, filename):  # SGT message
         """
